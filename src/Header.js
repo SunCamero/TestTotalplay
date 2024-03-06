@@ -8,7 +8,7 @@ const Header = ({movies}) => {
   return (
     <div className="header">
          <img src={logoImage} alt="Logo de la aplicación" className="logo-movie" />
-         <p className='result'> Fount {result} result</p>
+         <p className='result'> Found {result} result</p>
     
 
     </div>

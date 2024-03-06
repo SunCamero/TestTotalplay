@@ -1,12 +1,19 @@
 import React from 'react'
 import './styles.css'
 
-const Card2 = () => (
+function Card2  ({movies})  {
+
+  console.log("por favor pintate ",movies);
   <div className="form2">
   
 
   </div>
+
+}
+
+ 
     
-)
+
 
 export default Card2;
+

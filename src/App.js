@@ -6,7 +6,6 @@ import  Form2 from './form2';
 import React, { useState, useEffect } from 'react';
 import Header from './Header';
 import SearchBar from './SearchBar';
-
  
 function App() {
  const [text, setText] = useState('');
@@ -39,9 +38,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-       <Card movies={movies}/>
+       <Card movies={movies} setText={setText}/>
        <Form2 />
-       <Header   movies={movies} />
+       <Header   movies={movies}  />
        <SearchBar query={text} setText={setText} />
        
   
@@ -49,5 +48,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
