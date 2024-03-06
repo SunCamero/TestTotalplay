@@ -1,6 +1,57 @@
 .App {
   text-align: center;
 }
+.header {
+  background-color:purple;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1500px;
+  height: 80px;
+  color:purple;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  .result{
+    position: absolute;
+    font-size: 20px;
+    left: 1100px;
+    color: whitesmoke;
+    font-family:'Times New Roman', Times, serif
+  }
+}
+.logo-movie{
+  position: absolute;
+  width: 150px;
+  height: 50px;
+  left: 40px;
+}
+
+.p-1{
+  color: #282c34;
+}
+.bar{
+  position: absolute;
+  top: 40px;
+  height: 30px;
+  width: 500px;
+  left: 400px;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
 
 .App-logo {
   height: 40vmin;

@@ -1,0 +1,70 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.form{
+    background-color: #343335;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    width: 600px;
+    height: 600px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    height: auto;
+    overflow:hidden;
+
+    .contentMovie{
+      position: relative;
+      margin-top: 10px;
+      background-color: #504f53;
+      height: 100px;
+      width: 500px;
+      .title{
+        left: 150px;
+        top: 20px;
+        position: absolute;
+        text-align: left;
+        font-size: 15px;
+      }
+     
+      .poster{
+        position: absolute;
+        width: 80px;
+        height: 90px;
+        left: 0;
+      }
+      .year{
+        position: absolute;
+        text-align: left;
+        font-size: 15px;
+        left: 180px;
+        top: 45px;
+      }
+
+      .logo-calendar{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 150px;
+        top: 60px;
+
+      }
+
+    }
+   
+
+
+
+  }
+
+  .form2{
+    background-color:#343335;
+    position: absolute;
+    top: 120px;
+    left: 750px;
+    width: 600px;
+    height: 600px;
+    }
+
+
