@@ -5,7 +5,7 @@ function Card2({ movieId }) {
 
   console.log("id en form 2", movieId);
 
-  const apiKey = '9527dabb'; // Tu clave de API OMDB
+  const apiKey = '9527dabb'; 
 
 
   

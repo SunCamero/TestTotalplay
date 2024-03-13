@@ -1,7 +1,12 @@
 .App {
-  text-align: center;
+  width: 100%;
+  max-width: 15000px; /* Por ejemplo, establece un ancho máximo */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  padding: 20px;
   background-color: #61dafb;
 }
+
+
 .header {
   background-color:purple;
   position: absolute;
