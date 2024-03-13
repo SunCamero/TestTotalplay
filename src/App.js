@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Component from './component';
 import  Card from './form1';
-import  Form2 from './form2';
+import  Card2 from './form2';
 import React, { useState, useEffect } from 'react';
 import Header from './Header';
 import SearchBar from './SearchBar';
@@ -18,6 +18,7 @@ function App() {
       fetch(url)
       .then((response)=>response.json())
       .then((json)=>{
+        console.log("aqui no es es search",json);
         console.log("este console es solo para  el response ",json.Search);
        // const responseArray = Object.values(json);
         setMovies(json.Search)})
@@ -39,11 +40,9 @@ function App() {
     <div className="App">
       <header className="App-header">
        <Card movies={movies} setText={setText}/>
-       <Form2 />
+      
        <Header   movies={movies}  />
        <SearchBar query={text} setText={setText} />
-       
-  
       </header>
     </div>
   );
